@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{50D1A68A-D869-46C9-A0F3-708635DAE5E4}|Default">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.IterationStatements PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="IterationStatements/Triangle.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IterationStatements/Program.cs">
     <Files>
-      <File FileName="IterationStatements/Program.cs" Line="20" Column="1" />
-      <File FileName="IterationStatements/Triangle.cs" Line="20" Column="1" />
+      <File FileName="IterationStatements/Program.cs" Line="11" Column="13" />
+      <File FileName="IterationStatements/Triangle.cs" Line="6" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

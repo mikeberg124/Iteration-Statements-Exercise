@@ -1,26 +1,31 @@
 ﻿namespace IterationStatements
 {
     public class Program
+
+
+
     {
-         static void Main(string[] args)
+
+
+        static void Main(string[] args)
         {
-            
-          
-    
+
+
+
 
             Triangle.Print1000();
 
-            Triangle.Threeup();
+            
 
-            Triangle.AreTheyTheSame();
+            AreTheyTheSame(7, 8);
 
-            Triangle.IsItOdd();
+            IsItOdd(7);
 
-            Triangle.IsPositive();
+            Triangle.IsPositive(8);
 
-            Triangle.Range();
+            Triangle.Range(10);
 
-            Triangle.Multiplication();
+            Triangle.Multiplication(7);
 
             Triangle.CanVote();
 
@@ -32,14 +37,43 @@
 
 
         }
+        public static bool AreTheyTheSame(int x, int y)
+        {
+            if (x != y)
+            {
+                return (false);
+            }
+            else
+            {
+                return (true);
+            }
 
 
 
+
+
+        }
+
+        public static void IsItOdd(int x)
+        {
+            if (x % 2 == 0) 
+            {
+                Console.WriteLine("thats even!");
+
+            }
+
+            {
+                Console.WriteLine("thats odd");
+
+
+            }
+            
+
+
+
+
+
+        }
     }
-       
-
-
-
 }
-
            

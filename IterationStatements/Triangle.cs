@@ -13,49 +13,25 @@ namespace IterationStatements
                     Console.WriteLine(i * digit);
                 }
 
-                public static void Print1000()
-                {
-                    for (int i = 1000; i >= -1000; i--) 
-                    Console.WriteLine(i);
-
+                 
                 }
+        public static void Print1000()
+        {
+            for (int i = 1000; i >= -1000; i--)
+                Console.WriteLine(i);
+        }
 
-                 public static void ThreeUp()
+        public static void ThreeUp()
 
-                {
-                    for (int i = 3; i <= 999; i += 3) 
-                    {
-                        Console.WriteLine(i);
-                    }
+        {
+            for (int i = 3; i <= 999; i += 3)
+            {
+                Console.WriteLine(i);
+            }
 
-                }
-                
+        }
 
-                public  static bool AreTheyTheSame(int x, int y)
-                {
-                    if (x != y)
-                    {
-                        return (false);
-                    }
-                    else
-                    {
-                        return (true);     
-                    }
-
-                    public static void IsItOdd(int x)
-                    {
-                     if (x % 2 == 0) ;
-                        {
-                            Console.WriteLine("thats even!");
-
-                        }
-                        
-                        {
-                          Console.WriteLine("thats odd");
-
-
-                        }
-                        public static bool IsPositive(int x)
+        public static bool IsPositive(int x)
                         {
                             if (x > 0)
                             {
@@ -65,7 +41,7 @@ namespace IterationStatements
 
 
                         }
-                        public static bool Range(int x)
+                 public static bool Range(int x)
                         {
                             if (x <=10 && x >= -10)
 
@@ -77,7 +53,10 @@ namespace IterationStatements
 
                         }
 
-                        public static void CanVote()
+
+       
+
+        public static void CanVote()
                         {
 
                             Console.WriteLine("How old are you?");
@@ -90,40 +69,12 @@ namespace IterationStatements
                             {
                                 Console.WriteLine("You can't vote");
                             }
-                               
 
-                        }
-
-
-                    }
-                    
-                       
-
-                    
-
-
-
-
+             
 
 
                 }
 
-
-
-
-
-
-                
-
-
-
-
-            }
-
-        
-        
-
-       
         
     }
 }
